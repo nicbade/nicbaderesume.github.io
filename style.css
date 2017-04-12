@@ -1,28 +1,20 @@
-#header {
-height: 2px;
-width: 2px;
-background-color: blue;
-position: fixed;
-z-index: 1;
+* {
+  font-family: helvetica, sans-serif;
 }
 
-.left {
-height: 2px;
-width: 2px;
-background-color: blue;
-float: left;
+.container {
+max-width: 900px;
 }
 
-.right {
-height: 2px;
-width: 2px;
-background-color: blue;
-float: right;
+.nicholas h1 {
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  background: url(https://pbs.twimg.com/media/CtU_eQ1UMAAGu2l.jpg);
+  height: 550px;
+  padding-top: 50px;
 }
 
-#footer {
-height: 2px;
-width: 2px;
-background-color: blue;
-clear: both;
+.nicholas p {
+  font-size: 48px;
 }
